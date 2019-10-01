@@ -1,0 +1,131 @@
+﻿/* Set padding to keep content from hitting the edges */
+body{
+    background-color: hsla(0, 0%, 94%, 0.937);
+}
+
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.top-banner {
+    background-image: url('../images/TopBanner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 141px;
+   
+}
+
+.h1{
+    font-family: Calibri;
+    font-size: 6.644166666666667em;
+    color: white;
+}
+.h4{
+    font-family: Calibri;
+    font-size: 1.875rem;
+    color: white;
+}
+.jumbotron{
+    background-color: #f9f9f9f9;
+}   
+.secondary-banner{
+    background-color: #f9f9f9f9;
+}
+.img-mode{
+    max-width: 30px;
+    max-height: 30px;
+}
+.note-editor{
+    min-height: 250px;
+    background-color: white;
+}
+
+.note-editable {
+    min-height: 250px;
+}
+
+.reservation_list{
+    color: #bb0000; 
+    font-family: Calibri;
+    font-size: 2.6666666666666665rem;   
+}
+
+.lorem_ipsum{
+    color: #7c7c7c;
+    font-size: 1.3333333333333333rem;
+    font-weight: 300;
+    font-family: Calibri;
+    line-height: 1.4166666666666667rem;
+    text-align: justify;
+}
+
+.create_edit_button{
+    background-color: #9f9f9f; 
+    color: white;
+    text-decoration-line: none;
+}
+.create_edit_button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts_row{
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+.name_field{
+    font-family: Calibri;
+    font-size: 1.5683333333333334rem;
+    color: #504f4f;
+    font-style: normal;
+    font-weight: 400;
+}
+.birth_field{
+    color: #9a9a9a;
+    font-size: 1.29rem;
+    font-weight:300;
+}
+.type_field{
+    font-family: Calibri;
+    font-size:1.5683333333333334rem;
+    color: #504f4f;
+    font-style: normal;
+    font-weight: 400;
+}
+.phone_field{
+    font-family: Calibri;
+    font-size: 1.5683333333333334rem;
+    color: #504f4f;
+    font-style: normal;
+    font-weight: 400;
+}
+.submit-button{
+    background-color: #bb0000;
+    font-size: 1.4166666666666667rem;
+    font-family: Calibri;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
