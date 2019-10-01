@@ -1,0 +1,17 @@
+#dropdownMenuButton {
+    background-color: white;
+    border-radius: 0px;
+    color:#9f9f9f;
+    font-size: 1.4933333333333334rem;
+    font-family: Calibri;
+    text-align: left;
+}
+#dropdownMenuButton:after{
+    display: none;
+}
+
+#dropdownMenuButton:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
